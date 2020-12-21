@@ -1,7 +1,7 @@
 # flask-apscheduler-broilerplate
 A simple flask app that demonstrates how to use apscheduler for running background tasks
 
-# Caveats
+# caveats
 apscheduler works great to run jobs in the background using add_job()
 add_job allows to scheduled jobs using the following approaches:
 - Now using 'date'
@@ -10,7 +10,7 @@ add_job allows to scheduled jobs using the following approaches:
 The only problem is that get_jobs() fails to return the jobs that are running.
 This code maintains a joblist so that those jobs can be fetched.
 
-# How to run
+# how to run
 This requires Python3.6 or later since it uses F-Strings
 Run the flask server as follows:
 
